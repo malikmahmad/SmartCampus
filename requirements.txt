@@ -1,0 +1,19 @@
+# CampusPulse — Smart Campus Society & Event Management System
+# Pinned dependency versions for reproducible installs.
+# Run:  pip install -r requirements.txt
+
+# Core Web & UI Framework
+streamlit>=1.35.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+Pillow>=10.0.0,<12.0.0
+qrcode[pil]>=7.4.2,<8.0.0
+
+# Backend & Database
+supabase>=2.4.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# AI Copilot & LLM
+google-generativeai>=0.7.0,<1.0.0
+
+# Testing & Quality Assurance
+pytest>=7.4.0
